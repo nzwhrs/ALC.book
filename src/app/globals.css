@@ -31,3 +31,41 @@ button{
  padding:12px 25px;
  border-radius:20px;
 }
+.book-page{
+  background:#faf7ff;
+  min-height:100vh;
+  padding:40px 20px;
+}
+
+
+.book-content{
+  max-width:800px;
+  margin:auto;
+  background:white;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+
+.book-content h1{
+  color:#7c3aed;
+  text-align:center;
+}
+
+
+.chapter{
+  margin-top:40px;
+}
+
+
+.chapter h2{
+  color:#333;
+}
+
+
+.chapter p{
+  font-size:18px;
+  line-height:1.9;
+  text-align:justify;
+}
