@@ -8,7 +8,9 @@ export default function Home(){
       <section className="card">
         <h2>Istirahatlah, Allah Tidak Pernah Pergi</h2>
         <p>Buku digital pertama Al-Lathifu Learning Center.</p>
-        <button>Lihat Buku</button>
+        <a href="/book/1">
+  Lihat Buku
+</a>
       </section>
     </main>
   );
