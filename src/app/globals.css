@@ -1,0 +1,33 @@
+body{
+ margin:0;
+ font-family:Arial, sans-serif;
+ background:#faf7ff;
+ color:#333;
+}
+.home{
+ min-height:100vh;
+ padding:60px 25px;
+ text-align:center;
+ background:linear-gradient(135deg,#f5eaff,#eaf4ff);
+}
+h1{
+ color:#7b3fc6;
+}
+.pena{
+ font-style:italic;
+}
+.card{
+ margin:40px auto;
+ max-width:500px;
+ background:white;
+ padding:30px;
+ border-radius:25px;
+ box-shadow:0 10px 30px #ddd;
+}
+button{
+ background:#7b3fc6;
+ color:white;
+ border:0;
+ padding:12px 25px;
+ border-radius:20px;
+}
