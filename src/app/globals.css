@@ -69,3 +69,137 @@ button{
   line-height:1.9;
   text-align:justify;
 }
+.reader{
+background:#f8f5ff;
+min-height:100vh;
+padding:30px 15px;
+}
+
+
+.top-reader button{
+background:none;
+border:none;
+font-size:16px;
+}
+
+
+.book-header{
+text-align:center;
+max-width:700px;
+margin:auto;
+}
+
+
+.cover{
+width:160px;
+height:230px;
+object-fit:cover;
+border-radius:15px;
+box-shadow:0 15px 30px #ddd;
+}
+
+
+.book-header h1{
+font-size:32px;
+color:#7c3aed;
+margin-top:25px;
+}
+
+
+.author{
+color:#777;
+}
+
+
+.progress{
+height:8px;
+background:#eee;
+border-radius:20px;
+margin:25px auto 5px;
+max-width:400px;
+}
+
+
+.bar{
+height:100%;
+width:35%;
+background:#8b5cf6;
+border-radius:20px;
+}
+
+
+.toc{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+border-radius:30px;
+background:#7c3aed;
+color:white;
+}
+
+
+.paper{
+
+background:#fffdf8;
+
+max-width:750px;
+
+margin:40px auto;
+
+padding:45px;
+
+border-radius:25px;
+
+box-shadow:
+0 20px 50px rgba(0,0,0,.08);
+
+}
+
+
+.paper h2{
+
+color:#333;
+
+margin-top:35px;
+
+}
+
+
+.paper p{
+
+font-size:18px;
+
+line-height:2;
+
+text-align:justify;
+
+color:#444;
+
+}
+
+
+
+.navigation{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+}
+
+
+.navigation button{
+
+padding:14px 25px;
+
+border-radius:30px;
+
+border:none;
+
+background:#7c3aed;
+
+color:white;
+
+}
