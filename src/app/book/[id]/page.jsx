@@ -2,16 +2,61 @@ export default function BookPage(){
 
 return(
 
-<main className="book-page">
+<main className="reader">
 
-<article className="book-content">
+
+<div className="top-reader">
+
+<button>
+← Kembali
+</button>
+
+</div>
+
+
+
+<section className="book-header">
+
+<img 
+src="/cover.jpg"
+className="cover"
+/>
+
 
 <h1>
 Istirahatlah, Allah Tidak Pernah Pergi
 </h1>
 
 
-<div className="chapter">
+<p className="author">
+Darmawaty Daud
+</p>
+
+
+
+<div className="progress">
+
+<div className="bar"></div>
+
+</div>
+
+<p>
+35% selesai dibaca
+</p>
+
+
+<button className="toc">
+☰ Daftar Isi
+</button>
+
+
+</section>
+
+
+
+
+<article className="paper">
+
 
 <h2>
 Kata Pengantar
@@ -21,22 +66,16 @@ Kata Pengantar
 <p>
 Buku ini lahir bukan dari seseorang yang selalu kuat,
 melainkan dari hati yang pernah lelah, pernah bingung,
-dan pernah merasa sendirian, namun memilih tetap bertahan
-bersama iman.
+dan pernah merasa sendirian.
 </p>
 
 
 <p>
-Istirahatlah, Allah Tidak Pernah Pergi bukanlah buku
-yang menggurui. Buku ini adalah ruang aman untuk hati
-yang sedang belajar bernapas kembali.
+Namun memilih tetap bertahan bersama iman.
+Istirahatlah, Allah Tidak Pernah Pergi.
 </p>
 
-</div>
 
-
-
-<div className="chapter">
 
 <h2>
 Bab 1
@@ -57,10 +96,23 @@ tetapi karena kita terlalu sering berkata:
 </p>
 
 
-</div>
-
 
 </article>
+
+
+
+<div className="navigation">
+
+<button>
+← Bab Sebelumnya
+</button>
+
+
+<button>
+Bab Selanjutnya →
+</button>
+
+</div>
 
 
 </main>
